@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://bulbash22.github.io/archive-document/manifest.json",
+  "label": "Рукописный документ на русском языке",
+  "description": "Рукописный документ, содержащий текст на русском языке. Страница с рукописным текстом исторического или архивного характера.",
+  "metadata": [
+    {
+      "label": "Тип документа",
+      "value": "Рукопись"
+    },
+    {
+      "label": "Язык",
+      "value": "Русский"
+    },
+    {
+      "label": "Формат",
+      "value": "Рукописный текст на бумаге"
+    }
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "Основная последовательность",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://bulbash22.github.io/archive-document/canvas/1",
+          "label": "Страница 1",
+          "width": 3180,
+          "height": 5323,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://bulbash22.github.io/archive-document/page-01.jpg",
+                "format": "image/jpeg",
+                "width": 3180,
+                "height": 5323
+              },
+              "on": "https://bulbash22.github.io/archive-document/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
