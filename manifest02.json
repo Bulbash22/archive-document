@@ -1,0 +1,55 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://bulbash22.github.io/archive-document/manifest-page-02.json",
+  "label": "Рукописный документ на русском языке - Страница 2",
+  "description": "Вторая страница рукописного документа, содержащего текст на русском языке. Документ представляет собой докладную записку с рукописным текстом исторического или архивного характера.",
+  "metadata": [
+    {
+      "label": "Тип документа",
+      "value": "Рукопись"
+    },
+    {
+      "label": "Язык",
+      "value": "Русский"
+    },
+    {
+      "label": "Формат",
+      "value": "Рукописный текст на бумаге"
+    },
+    {
+      "label": "Номер страницы",
+      "value": "2"
+    }
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "Основная последовательность",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://bulbash22.github.io/archive-document/canvas/2",
+          "label": "Страница 2",
+          "width": 3180,
+          "height": 5323,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://bulbash22.github.io/archive-document/page-02.jpg",
+                "format": "image/jpeg",
+                "width": 3180,
+                "height": 5323
+              },
+              "on": "https://bulbash22.github.io/archive-document/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
